@@ -1,0 +1,127 @@
+/* 版心 */
+.nhs-version-heart{
+    width: 412px;
+    margin: 0 auto;
+    height: 732px;
+    background-color: rgb(216, 73, 73);
+    overflow: hidden;
+}
+/* 版心 */
+.top-chose{
+    margin: 20px 10px 0;
+    height: 50px;
+    padding-right: 30%; 
+}
+.chose-item{
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.chose-item a{
+    display: block;
+    flex: 1; 
+    width: 100%;
+    height: 100%;
+    font-size: 1.8em;
+    line-height:48px;
+    text-align: center;
+    font-weight: 500;
+}
+.a-item{ 
+    color: rgb(216, 73, 73);
+    background-color: rgb(255, 254, 254); 
+}
+.item-sel{
+    border-bottom: 2px solid rgb(143, 19, 19);
+}
+.a-item-sel{
+    color: rgb(255, 255, 255);
+    background-color: rgb(216, 73, 73);
+}
+.sel-content{
+    margin: 0 10px;
+    /* height: 640px; */
+    /* background-color: rgb(243, 243, 243); */
+    padding: 0px 5px 0px;
+    border-radius: 0 10px 10px 10px;
+}
+.sel-content>div{
+    margin: 5px auto;
+}
+
+.every-item{
+    height: 120px;
+    background-color: rgb(255, 254, 254);
+    position: relative;
+    border-radius: 10px;
+}
+.every-item a{
+    display: block;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.every-item a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.every-item-text{
+    padding: 10px 30px 10px 130px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    color: rgb(145, 145, 145);  
+    position: relative; 
+}
+.every-item-text h3{
+    font-size: 1.6em;
+    text-align: center;
+}
+.every-item-text h4{
+    font-size: 1.2em;
+    padding-left:30px;
+    color: brown;
+}
+.every-item-text p{
+    padding-left:30px;
+    font-size: 1.2em;
+}
+.every-item-text p:last-child{
+    font-size: 1em;
+    text-indent: 2em;
+}
+/* .new-a img{
+    background-image: url(../image/cat2.jpg);
+}
+.hot-a img{
+    background-image: url(../image/cat3.jpg);
+}
+.show-a img{
+    background-image: url(../image/cattt.jpg);
+} */
+.every-item-text i{
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: 95px;
+    width: 30px;
+    height: 30px;
+    z-index: 4;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.text-new i{
+    background-image: url(../image/new.png);
+}
+.text-hot i{
+    background-image: url(../image/icon_hot.png);
+}
+.text-show i{
+    background-image: url(../image/show.png);
+}

@@ -1,0 +1,432 @@
+.version-heart{
+    width: 412px;
+    margin: 0 auto;
+    background-color: rgba(236, 234, 234,.3);
+    
+}
+/* 头部 */
+.header{
+    /* background-image: linear-gradient(135deg,#fad46b,#e2ab7e); */
+    background-image: linear-gradient(135deg,#7c7b7b,#b8b8b8);
+}
+.menu{
+    width: 8%;
+    height: 30px;
+    margin: 10px;
+    float: left;
+}
+.menu a{
+    display: block;
+}
+.menu a img{
+    width: 30px;
+    height: 30px;
+}
+.search-box-logo{
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url(../image/search0.png);
+    background-size: contain;
+    top: 5px;
+    left: 3px;
+}
+.search-box{
+    float: left;
+    width: 55%;
+    height: 36px;
+    margin: 7px 0;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    
+}
+.search-box-a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.search-box-a input{
+    display: block;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    text-indent: 2em;
+    font-size: 14px;
+}
+.user-opera{
+    float: left;
+    width: 30%;
+    height:30px;
+    margin: 10px  0 10px 8px;
+}
+.user-opera a{
+    line-height: 30px;
+    font-weight: 900;
+}
+.user-opera h6{
+    display: inline-block;
+    font-size: 1em;
+    padding-left: 10px;
+    color: rgb(250, 53, 86);   
+}
+.menu-item{
+    padding:5px;
+}
+.menu-item-ul{
+    width: 100%;
+    display: flex; 
+    text-align: center;
+}
+.menu-item-ul a{
+    display: block;
+    flex: 1;
+    padding: 5px;
+    margin-right: 5px;
+}
+.menu-item-ul a:last-child{
+    margin-right:0;
+}
+.menu-item-img{
+    height: 65px;
+    padding: 0 10px;
+    background-repeat: no-repeat;
+    background-image: url(../image/pet_bg.png);
+}
+.img1{
+    background-position: -75px -88px;
+}   
+.img2{
+    background-position: -75px -8px;
+}  
+.img3{
+    background-position: -155px -88px;
+}  
+.img4{
+    background-position: 5px -8px;
+}  
+.menu-item ul a li{
+    color: #444644;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 900;
+    border:1px dashed #666866;  
+    background-color: #fdfffd;
+}
+/* 头部 */
+/* 空隙 */
+.space{
+    width: 100%;
+    height: 10px;
+}
+/* 空隙 */
+/* 轮播 */
+.slider{
+    margin: 5px auto;
+    border: 1px dashed #888686;
+    /* background-image: linear-gradient(135deg,#cbf5c0,rgb(202, 218, 132),#8fe684); */
+    width: 94%;
+    height: 150px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+.slider-content{
+    flex: 1;
+    margin: 4px;
+    border-radius: 10px;
+    position: relative;
+}
+.slider-content img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: show 16s infinite;
+    background-repeat: no-repeat;
+}
+@keyframes show{
+    0%{
+        opacity: 0;
+        z-index: 2;
+    }
+    6%,25%{
+        opacity: 1;
+        z-index: 1;
+    }
+    31%,100%{
+        opacity: 0;
+        z-index: 0;
+    }
+}
+#slider-img1{
+    animation-delay: 0s;
+    background-image: url(../image/center.jpg);
+    background-position: -75px 0;
+    background-size: cover;
+    z-index: 5;
+}
+#slider-img2{
+    animation-delay: 4s;
+    background-image: url(../image/center0.jpg);
+    background-position: -75px 0;
+    background-size: cover;
+}
+
+#slider-img3{
+    animation-delay: 8s;
+    background-image: url(../image/center4.jpg);
+    background-size:100% 100%;
+}
+#slider-img4{
+    animation-delay: 12s;
+    background-image: url(../image/center6.jpg);
+    background-size:100% 100%;
+}
+
+
+/* .slider-content ul{
+    position: absolute;
+    bottom: 5px;
+    right: 50%;
+    margin-right: -37px;
+
+}
+.slider-content ul li{
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: rgba(168, 166, 166, 0.514); 
+}
+.slider-content ul li:first-child{
+    background-color: rgba(37, 36, 36, 0.514); 
+} */
+/* 轮播 */
+/* 宠物类别 */
+.pet-category-title{
+    margin: 10px auto;
+    width: 94%;
+}
+.pet-category-title-bgc{
+    /* background-image: linear-gradient(135deg,#f3e565,rgb(149, 252, 229),#c7f879); */
+    background-image: linear-gradient(135deg,rgb(253, 7, 232),rgba(0, 0, 0, 0));
+    padding-left: 30px;
+    /* background-color: rgb(149, 252, 229); */
+    border-radius: 15px;
+    border: 1px dashed #fbff00; 
+    opacity: .6;
+}
+.pet-category-title-bgc h3{
+    line-height: 30px;
+}
+.pet-category{
+    margin: 5px auto;   
+    width: 80%;
+    height: 155px;
+    border-top: 1px dashed rgb(182, 182, 182); 
+    border-left: 1px dashed rgb(196, 196, 196); 
+    box-shadow: 3px 3px 10px #888686;
+    border-radius: 10px;
+    /* padding: 0 10px; */
+    display: flex; 
+}
+.pet-category-content{
+    background-color: rgb(240, 236, 236); 
+    border-radius: 10px;
+    /* margin-top: 5px; */
+    flex: 1;
+}
+.pet-category-content ul{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    /* background-image: url(../image/slider-bgi.jpg); */
+}
+
+.pet-category-item{
+    margin: 10px 0;
+    display: block;
+    flex: 1;
+    text-align: center;
+    /* position: relative; */
+}
+.pet-category-item div{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(8, 8, 8);
+    opacity: .7;
+}
+.pet-category-item h3{
+    line-height: 50px;
+}
+.gouzi{
+    bottom:105px;
+    left: -15px;
+}
+.maomi{
+    bottom: 65px;
+    right: -125px;
+
+}
+a.pet-category-item:first-child{
+    border-right: 2px dashed rgb(173, 173, 173);
+}
+.pet-category-item li{
+    display: inline-block;
+    width:120px;
+    height: 120px;
+    border-radius:60px;
+    background-color: rgb(247, 241, 241);
+    border: 1px dashed rgb(173, 173, 173);
+}
+.pet-dog{
+    background-image: url(../image/kj.png);
+    background-repeat: no-repeat;
+    background-size: 160px auto;    
+    background-position: 0 0;
+
+}
+.pet-cat{
+    background-image: url(../image/cat1.jpg);
+    background-repeat: no-repeat;
+    background-size: 130px auto;
+    background-position: -12px -18px;
+    margin-top: 10px;
+}
+/* 宠物类别 */
+/* Other */
+.other{
+    width:98%;
+    margin: 10px auto;
+}
+.other-content{
+    height: 30px;
+    /* background-color: rgb(9, 13, 245); */
+    background-image: linear-gradient(135deg,rgb(9, 13, 245),rgba(0, 0, 0, 0));
+    border-radius: 15px;
+    border: 1px dashed #e0fa6b; 
+    opacity: .8;
+    padding-left: 20px;
+}
+.other-content h3{
+    line-height: 30px;
+}
+/* Other */
+/* 中部的一个表 */
+.middle-list{
+    width: 96%;
+    /* background-color: #fff; */
+    margin: 10px auto;
+    border-radius: 10px;
+    display: flex;
+    border-top: 1px dashed rgb(173, 173, 173);
+    border-bottom: 1px dashed rgb(173, 173, 173);
+}
+.middle-list-content{
+    flex: 1;
+    display: flex;
+    
+}
+.middle-item{
+    height: 200px;
+    flex: 1;
+    padding-right: 5px;
+    overflow: hidden;
+    display: flex;
+}
+/* 第一个middle-item */
+.middle-item:first-child{
+    padding-left: 5px;
+}
+.middle-item a{
+    flex: 1;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-size: 100% 100%; 
+    position: relative;
+}
+.middle-item-a1{
+    background-image: url(../image/pp.jpg);
+}
+.middle-item-a2{
+    background-image: url(../image/dog1.jpg);
+}
+.middle-item-a3{
+    background-image: url(../image/catstand.jpg);
+}
+.text-border{
+    position: absolute;
+    width: 100px;
+    height: 180px;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+    top: 10px;
+    left: 13px;
+    opacity: .6;
+    padding: 5px;
+}
+.text-content{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: .5;
+    text-align: center;
+}
+.text-content h3{
+    color: #0d0e0d;
+    line-height: 164px;
+    font-size: 20px;
+}
+/* 中部的一个表 */
+/* 关于 */
+.about{
+    width:98%;
+    margin: 10px auto;
+}   
+.about-content{
+    height: 30px;
+    background-color: rgb(240, 222, 140);
+    border-radius: 15px;
+    border: 1px dashed #fa886b; 
+}
+.about-content ul{
+    text-align: center;
+    line-height: 30px;
+}
+.about-content ul li{
+    display: inline-block;
+    color: #f50438;
+}
+.about-content .line{
+    color: white;
+    padding: 0 5px;
+}
+/* 关于 */
+/* 版权 */
+.copyright{
+    width: 94%;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-image: url(../image/slider-bgi.jpg);
+    text-align: center;
+    padding-top: 10px;
+}
+.copyright-content{
+    padding:0 10px;
+}
+.copyright-content p{
+    color: #444644;
+    margin: 10px 0;
+    font-weight: 900;
+}
+/* 版权 */

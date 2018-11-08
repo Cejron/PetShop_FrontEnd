@@ -1,0 +1,136 @@
+/* 版心 */
+.login-version-heart{
+    width: 412px;
+    margin: 0 auto;
+    height: 732px;
+    background-color: rgb(236, 234, 234);
+}
+.all-content{
+    background-image: url(../image/login-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+}
+/* 版心 */
+/* 顶层导航 */
+.back-to-home{
+    width: 100%;
+    height: 50px;
+    background-image: url(../image/arrowleft.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(255, 255, 255, 0.2);  
+}
+.back-btn{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 5px 0 0 5px;
+}
+/* 顶层导航 */
+/* 用户信息 包含所有内容 */
+.user-message{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: rgba(7, 7, 7, 0.2);
+    padding: 0.1px;
+}
+/* 放上面两张图片的 */
+.pet-img{
+    width: 90%; 
+    height: 20%;
+    box-sizing: border-box;
+    padding-top: 20%;
+    margin: 0 auto;
+    margin-top: 10px; 
+    margin-bottom: 10px;  
+}
+.pet-logo{
+    width: 150px;
+    height:150px;
+    background-image: url(../image/pet-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -17px;
+    right: -215px;
+}
+.pet-heart{
+    height: 100%;
+    width: 100%;
+    background-image: url(../image/heart-line.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -115px;
+}
+/* 放上面两张图片的 */
+/* 放用户登录信息的 */
+.user-message-content{
+    width: 70%;
+    padding: 0 10%;
+    padding-top: 5px;
+    height: 30%;
+    margin: 0 auto;
+    border-radius: 80px 20px 80px 20px/20px 80px 20px 80px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.user-message-content div{
+    margin: 10px auto;
+    background-color: rgba(2, 2, 2, 0.3);
+    border-radius: 10px;
+    height: 45px;
+    width: 90%;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* border: 1px dashed rgb(141, 141, 141); */
+}
+.user-name,.user-password{
+    padding-left: 50px;
+}
+.user-name input,.user-password input{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    outline: none;
+}
+.user-name-img,.user-password-img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -38px;
+    left: -40px;
+    background-size: contain;
+}
+.user-name-img{
+    background-image: url(../image/user.png);
+    background-position: 0 0;
+}
+.user-password-img{
+    background-image: url(../image/lock-fill.png);
+    background-position: 0 0;
+}
+.forget{
+    display: block;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px auto;
+    padding-left: 20px;
+}
+.user-login-btn{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: table; 
+}
+.user-login-btn h3{
+    display: table-cell;  
+    vertical-align: middle;
+    font-size: 16px;  
+}
+/* 放用户登录信息的 */
+/* 用户信息 包含所有内容 */
