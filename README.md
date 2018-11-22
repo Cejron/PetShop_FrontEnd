@@ -23,6 +23,6 @@
 
 new hot show
 
-![oth](https://github.com/Cejron/PetShop_FrontEnd/blob/master/screenshot/res.gif)
+![oth](https://github.com/Cejron/PetShop_FrontEnd/blob/master/screenshot/oth.gif)
 
     
