@@ -7,7 +7,7 @@
 
 #### 导航菜单
 
-   - 百科 技巧 新闻 杂谈
+    百科 技巧 新闻 杂谈
    
    ![baike](https://github.com/Cejron/PetShop_FrontEnd/blob/master/screenshot/baike.gif)
    
